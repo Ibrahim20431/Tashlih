@@ -48,6 +48,7 @@ class RateTraderDialog extends ConsumerWidget {
             initialRating: double.infinity,
             minRating: 1,
             glow: false,
+            itemSize: 30.0,     //
             ratingWidget: RatingWidget(
               full: const Icon(Icons.star, color: Colors.amber),
               half: const Icon(Icons.star_half_outlined),

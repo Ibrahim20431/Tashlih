@@ -110,7 +110,8 @@ class _ConversationWidgetState extends ConsumerState<ConversationWidget> {
                 } else {
                   return const Center(
                     child: Text(
-                      'تحل بآداب المحادثة \nابدأ محادثتك بشكل لطيف',
+                      'تذكرة مهمة: في حال تمت أي عملية خارج تطبيق تشليح، ما يعني أنك معفي من عمولة التطبيق. نحن هنا لحمايتك وضمان حقك، فلا تستغني عن الأمان والسهولة في تشليح!',
+                      // 'تحل بآداب المحادثة \nابدأ محادثتك بشكل لطيف',
                       textAlign: TextAlign.center,
                     ),
                   );
